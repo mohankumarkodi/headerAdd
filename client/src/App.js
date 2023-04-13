@@ -5,10 +5,13 @@ import Profile from "./components/Profile";
 // import MagazineForm from "./components/Magazine";
 // import Header from "./components/Header";
 import Cart from "./components/Cart";
+import NotFound from "./components/NotFound";
 import Products from "./components/Products";
 import LoginPage from "./components/LoginPage";
 import Signup from "./components/Signup";
 import CartContext from "./context/CartContext";
+//import Header from "./components/Header";
+import Home from "./components/Home";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -63,9 +66,13 @@ function App() {
         <Routes>
           <Route path="/login" exact element={<LoginPage />} />
           <Route path="/signup" exact element={<Signup />} />
+          <Route path="/home" exact element={< Home/>} />
           <Route path="/products" exact element={<Products />} />
           <Route path="/cart" exact element={<Cart />} />
-          <Route path="/profile" exact element={<Profile />} />
+          <Route path="/profile" exact element={<Profile />}/>
+          <Route path="/notFound" exact element={<NotFound />}/>
+          
+           
           {/* <SignUp />
       <Header />
       <Profile />

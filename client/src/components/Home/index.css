@@ -1,0 +1,47 @@
+.h-bg-container{
+    background: #06283D;
+    width: 100%;
+    height: 100vh;
+}
+.h-white-names{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: bolder;
+
+}
+.h-side-container{
+    max-width: 40%;
+    padding: 20px;
+}
+.h-blue-name{
+    color: #47B5FF;
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: bolder;
+}
+.h-side-discription{
+    color: #777777;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 300;
+}
+.h-btn-shop{
+    background-color: #1363DF;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.h-bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.h-icon{
+    background-color: #ffffff;
+
+}
